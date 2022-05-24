@@ -1,0 +1,29 @@
+{
+  "name": "ead-2nd-mid-lab-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjana695/EAD-2ND-MID-LAB-EXAM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjana695/EAD-2ND-MID-LAB-EXAM/issues"
+  },
+  "homepage": "https://github.com/Sanjana695/EAD-2ND-MID-LAB-EXAM#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  }
+}
