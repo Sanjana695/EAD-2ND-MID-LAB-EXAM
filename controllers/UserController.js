@@ -19,4 +19,11 @@ User.create({...req.body,pic:img.name}, function(err,user){
 })
 })
 }
-module.exports={create,signup};
+
+const getUser=async(req,res)=>{
+    console.log(req.body);
+    const users= await User.find();
+    console.log(users)
+    res.render("userList",{users});
+}
+module.exports={create,signup,getUser};

@@ -24,6 +24,7 @@ const userController=require("./controllers/UserController");
 app.get("/create",userController.create);
 
 app.post("/user/create",userController.signup);
+app.get("/userList",userController.getUser);
 
 app.use("*",function(req,res){
     res.status(404).json({msg:"NOT FOUND"});
